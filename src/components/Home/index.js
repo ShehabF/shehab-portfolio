@@ -3,6 +3,7 @@ import './index.scss';
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import Logo from "../Logo";
+import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -18,26 +19,30 @@ const Home = () => {
                       }, [])
 
     return(
-        <div className="container home-page">
-            <div className="text-zone">
-                <h1>
-                    <AnimatedLetters
-                    letterClass={letterClass}
-                    strArray={nameArray}
-                    index={15}/>
+        <>
+            <div className="container home-page">
+                <div className="text-zone">
+                    <h1>
+                        <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={nameArray}
+                        index={15}/>
 
-                    <br/>
+                        <br/>
 
-                    <AnimatedLetters
-                    letterClass={letterClass}
-                    strArray={jobArray}
-                    index={18}/>
-                </h1>
-                <h2> Frontend Developer/ UI/UX Design / Photography</h2>
-                <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                        <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={jobArray}
+                        index={18}/>
+                    </h1>
+                    <h2> Frontend Developer/ UI/UX Design / Photography</h2>
+                    <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                </div>
+                <Logo/>
             </div>
-            <Logo/>
-        </div>
+            <Loader type='ball-scale-ripple-multiple'/>
+        </>
+        
     );
 }
 
