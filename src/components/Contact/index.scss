@@ -70,11 +70,6 @@
       float: right;
       text-align: center;
       margin-right: 10px;
-
-      &:hover {
-        background: #ffd700;
-        color: #333;
-      }
     }
   }
   
@@ -99,9 +94,9 @@
     position: absolute;
     background: #000;
     top: 50px;
-    right: 30%;
+    right: 35%;
     z-index: 999999;
-    width: 267px;
+    width: 240px;
     padding: 20px;
     color: #fff;
     font-family: 'Helvetica';
