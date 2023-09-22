@@ -38,10 +38,6 @@ const About = () => {
                         foundation in Java, ReactJS, TypeScript, JavaScript, HTML, CSS, GraphQL, and SQL, equipping me with 
                         the technical prowess necessary for success in a software engineering role.
                     </p>
-                    <p>
-                        I look forward to the opportunity to discuss how my experiences and enthusiasm can contribute to 
-                        your company's continued success. My resume is avalaible below!
-                    </p>
                 </div>
 
                 <div className='stage-cube-cont'>
