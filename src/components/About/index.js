@@ -12,6 +12,7 @@ import {
     faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -21,6 +22,8 @@ const About = () => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
+
+    const downloadResume = () => {}
     return (
         <>
             <div className="container about-page">
@@ -88,6 +91,16 @@ const About = () => {
                         <div className="face6">
                             <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                         </div>
+                    </div>
+                    <div>
+                        <a 
+                            className="flat-button" 
+                            href='Shehab Farooqui Resume 2023 (12).pdf' 
+                            download='Shehab Farooqui Resume'
+                        >
+                            DOWNLOAD RESUME
+                            <FontAwesomeIcon className='download-icon' icon={faArrowAltCircleDown}/>
+                        </a>
                     </div>
                 </div>
             </div>

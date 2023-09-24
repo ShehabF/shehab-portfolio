@@ -27,7 +27,7 @@ const Contact = () => {
                 process.env.REACT_APP_SERVICE_ID,
                 'template_zeea94j',
                 refForm.current,
-                'LBe811nTrYekzJMAq'
+                process.env.REACT_APP_EMAILJS_PUBLIC_KEY
             )
             .then(
                 () => {
