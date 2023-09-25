@@ -24,14 +24,15 @@
         bottom: auto;
         left: 0;
         margin: auto;
+        padding-top: 50px;
         width: 100%;
         opacity: 0;
-        transform: rotateZ(30deg) !important;
+        //transform: rotateZ(30deg) !important;
         z-index: 1;
     }
 }
 
 .svg-container {
-    stroke: #ffd700;
+    stroke: #ffffff;
     stroke-width: 10;
 }

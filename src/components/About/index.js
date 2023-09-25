@@ -23,7 +23,6 @@ const About = () => {
         }, 3000)
     }, [])
 
-    const downloadResume = () => {}
     return (
         <>
             <div className="container about-page">
@@ -93,13 +92,13 @@ const About = () => {
                         </div>
                     </div>
                     <div>
-                        <a 
-                            className="flat-button" 
-                            href='Shehab Farooqui Resume 2023 (12).pdf' 
+                        <a
+                            className="flat-button"
+                            href='Shehab Farooqui Resume 2023 (12).pdf'
                             download='Shehab Farooqui Resume'
                         >
                             DOWNLOAD RESUME
-                            <FontAwesomeIcon className='download-icon' icon={faArrowAltCircleDown}/>
+                            <FontAwesomeIcon className='download-icon' icon={faArrowAltCircleDown} />
                         </a>
                     </div>
                 </div>
