@@ -8,10 +8,13 @@ import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css'
 import 'leaflet-defaulticon-compatibility'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
+    const [isSubmitted, setIsSubmitted] = useState(false)
 
     useEffect(() => {
         setTimeout(() => {
@@ -31,7 +34,7 @@ const Contact = () => {
             )
             .then(
                 () => {
-                    window.location.reload(false)
+                    setIsSubmitted(true);
                 },
                 () => {
                     alert('Failed to send messsage, please try again')
@@ -62,48 +65,55 @@ const Contact = () => {
                     </h1>
 
                     <div className="contact-form">
-                        <form ref={refForm} onSubmit={sendEmail}>
-                            <ul>
-                                <li className="half">
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Name"
-                                        required
-                                    />
-                                </li>
-                                <li className="half">
-                                    <input
-                                        type="text"
-                                        name="email"
-                                        placeholder="zarah1@example.com"
-                                        required
-                                    />
-                                </li>
-                                <li>
-                                    <input
-                                        type="text"
-                                        name="subject"
-                                        placeholder="Subject"
-                                        required
-                                    />
-                                </li>
-                                <li>
-                                    <textarea
-                                        placeholder="Please provide your contact info in the message..."
-                                        name="message"
-                                        required
-                                    />
-                                </li>
-                                <li>
-                                    <input
-                                        type="submit"
-                                        className="flat-button"
-                                        value={'SEND'}
-                                    />
-                                </li>
-                            </ul>
-                        </form>
+                        {isSubmitted ?
+                            <div className='submission-text'>
+                                Thank you for contacting me! I will get back to you soon.
+                                <FontAwesomeIcon className='check-icon' icon={faCircleCheck} color='#ffffff' />
+                            </div>
+                            :
+                            <form ref={refForm} onSubmit={sendEmail}>
+                                <ul>
+                                    <li className="half">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Name"
+                                            required
+                                        />
+                                    </li>
+                                    <li className="half">
+                                        <input
+                                            type="text"
+                                            name="email"
+                                            placeholder="zarah1@example.com"
+                                            required
+                                        />
+                                    </li>
+                                    <li>
+                                        <input
+                                            type="text"
+                                            name="subject"
+                                            placeholder="Subject"
+                                            required
+                                        />
+                                    </li>
+                                    <li>
+                                        <textarea
+                                            placeholder="Please provide your contact info in the message..."
+                                            name="message"
+                                            required
+                                        />
+                                    </li>
+                                    <li>
+                                        <input
+                                            type="submit"
+                                            className="flat-button"
+                                            value={'SEND'}
+                                        />
+                                    </li>
+                                </ul>
+                            </form>
+                        }
                     </div>
                 </div>
                 <div className="info-map">
