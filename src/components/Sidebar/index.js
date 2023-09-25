@@ -39,7 +39,7 @@ const Sidebar = () => (
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/shehab-farooqui-a99993171/"
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon className='anchor-icon' icon={faLinkedin} color="#4d4d4e" />
                 </a>
             </li>
             <li>
@@ -48,7 +48,7 @@ const Sidebar = () => (
                     rel="noreferrer"
                     href="https://github.com/ShehabF"
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon className='anchor-icon' icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
