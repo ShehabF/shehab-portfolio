@@ -17,6 +17,7 @@
     left: 120px;
     font-size: 18px;
     font-family: 'La Belle Aurore', cursive;
+    z-index: 2;
 }
 
 .bottom-tag-html {
@@ -37,6 +38,11 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+}
+
+.container.home-page {
+    background-image: url('../../assets/images/black-clouds.jpg');
+    background-size: cover;
 }
 
 .container.contact-page,
@@ -83,7 +89,7 @@
     p {
         font-size: 17px;
         color: #fff;
-        font-family: 'Helvetica Neue';
+        font-family: 'Coolvetica';
         font-weight: 300;
         max-width: 600px;
         min-width: 600px;

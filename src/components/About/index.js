@@ -44,12 +44,13 @@ const About = () => {
                     </p>
                     <p>
                         In 2020, I graduated from the Georgia Institute of
-                        Technology with concentrations in people and media. I
-                        had the opportunity to lead the development of the
-                        official website for Plantlanta. As the team lead I
-                        actively engaged in client communication and UX research
-                        to pinpoint essential development features. Our team was able to
-                        succesfully deliver the project within the MVP scope.
+                        Technology with a B.Sc. in Computer Science and
+                        concentrations in people and media. I had the opportunity
+                        to lead the development of the official website for Plantlanta.
+                        As the team lead I actively engaged in client communication
+                        and UX research to pinpoint essential development features.
+                        Our team was able tosuccesfully deliver the project within
+                        the MVP scope.
                     </p>
                     <p>
                         During my two-year tenure at T-Mobile, I had the
