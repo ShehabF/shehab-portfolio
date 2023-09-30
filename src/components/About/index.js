@@ -47,10 +47,8 @@ const About = () => {
                         Technology with concentrations in people and media. I
                         had the opportunity to lead the development of the
                         official website for Plantlanta. As the team lead I
-                        actively engaged in client communication and conducted
-                        in-depth research to pinpoint essential development
-                        features, ensuring the website's alignment with
-                        Plantlanta's objectives. Our team was able to
+                        actively engaged in client communication and UX research
+                        to pinpoint essential development features. Our team was able to
                         succesfully deliver the project within the MVP scope.
                     </p>
                     <p>
@@ -61,9 +59,7 @@ const About = () => {
                         T-Mobile's development teams and product owners. This
                         experience has provided me with a solid foundation in
                         Java, ReactJS, TypeScript, JavaScript, HTML, CSS,
-                        GraphQL, and SQL, equipping me with the technical
-                        prowess necessary for success in a software engineering
-                        role.
+                        GraphQL, and SQL.
                     </p>
                 </div>
 

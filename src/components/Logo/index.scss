@@ -2,7 +2,7 @@
     z-index: 0;
     width: 400px;
     height: 609px;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 0;
     right: 15%;
@@ -22,17 +22,21 @@
         top: auto;
         right: auto;
         bottom: auto;
-        left: 0;
+        left: 50px;
         margin: auto;
         padding-top: 50px;
         width: 100%;
-        opacity: 0;
-        //transform: rotateZ(30deg) !important;
+        opacity: 1;
         z-index: 1;
+        animation: fadeInAnimation 1s 1.8s backwards;
     }
 }
 
-.svg-container {
-    stroke: #ffffff;
-    stroke-width: 10;
+@media screen and (max-width: 1200px) {
+    .logo-container .solid-logo {
+        position: relative;
+        width: 100%;
+        opacity: 0.2;
+        left: 50px;
+    }
 }
