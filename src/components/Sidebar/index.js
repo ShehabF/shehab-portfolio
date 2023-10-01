@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import LogoS from '../../assets/images/s-high-resolution-logo-white-on-transparent-background.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCamera, faCameraRetro, faEnvelope, faFolder, faFolderTree, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faCamera, faEnvelope, faFolder, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
