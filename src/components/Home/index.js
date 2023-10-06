@@ -69,7 +69,7 @@ const Home = () => {
                             index={18}
                         />
                     </h1>
-                    <h2> Fullstack Developer/ UI/UX Design / Photography</h2>
+                    <h2> Full Stack Developer/ UI/UX Design / Photography</h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
                     </Link>
