@@ -40,6 +40,10 @@
     animation-delay: 1s;
 }
 
+.container.gallery-page {
+    flex-wrap: wrap;
+}
+
 .container.home-page {
     background-image: url('../../assets/images/black-clouds.jpg');
     background-size: cover;
