@@ -1,0 +1,17 @@
+.gallery-page {
+
+    .img-wrap {
+        width: 400px;
+        height: 350px;
+    }
+
+    img {
+        width: 400px;
+        height: 350px;
+        background-size: auto;
+
+        &:hover {
+            animation: pulse 1s;
+        }
+    }
+}
