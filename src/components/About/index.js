@@ -35,9 +35,9 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I'm a highly motivated front-end developer looking for
+                        I'm a highly motivated full stack developer looking for
                         the next step in my career. Through my professional and
-                        academic experience, I have honed my skills in front-end
+                        academic experience, I have honed my skills in software
                         development, teamwork, and problem-solving, making me a
                         well-rounded candidate eager to contribute to your
                         innovative team.
@@ -47,10 +47,8 @@ const About = () => {
                         Technology with a B.Sc. in Computer Science and
                         concentrations in people and media. I had the opportunity
                         to lead the development of the official website for Plantlanta.
-                        As the team lead I actively engaged in client communication
-                        and UX research to pinpoint essential development features.
-                        Our team was able tosuccesfully deliver the project within
-                        the MVP scope.
+                        As the team lead I actively engaged in client communication,
+                        UX research, appilcation development, and team sprint planning.
                     </p>
                     <p>
                         During my two-year tenure at T-Mobile, I had the
