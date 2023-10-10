@@ -89,7 +89,7 @@ const About = () => {
                     <div>
                         <a
                             className="flat-button"
-                            href='Shehab Farooqui Resume 2023 (12).pdf'
+                            href='Shehab Farooqui Resume 2023 (13).pdf'
                             download='Shehab Farooqui Resume'
                         >
                             DOWNLOAD RESUME

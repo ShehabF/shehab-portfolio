@@ -6,9 +6,7 @@
     }
 
     img {
-        width: 400px;
-        height: 350px;
-        background-size: auto;
+        animation: fadeInAnimation 3s 2s backwards;
 
         &:hover {
             animation: pulse 1s;

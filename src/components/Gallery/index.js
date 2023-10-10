@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 const Gallery = () => {
     const { docs } = useFireStore('images')
-    console.log(docs)
+    //console.log(docs)
 
     return (
         <>
